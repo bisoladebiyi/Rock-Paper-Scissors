@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nerko+One&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+   font-family: "Nunito";
+   background-color: #435d91;
+   color: white;
+}
+header {
+    background-color: #f7f8fa;
+    padding: 20px;
+}
+header > h1 {
+    color: #242223;
+    text-align: center;
+    font-family: "Comfortaa";
+    font-size: 50px;
+}
+.scoreBoard {
+    border: 2px solid #dcdcde; ;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 40px auto 0 auto;
+    box-shadow: 0 0 5px  #dcdcde;
+    text-align: center;
+    
+
+    
+}
+.players {
+    background-color: #c94b7d;
+    border: 1px solid #c94b7d;
+    border-radius: 4px;
+    width: 85px;
+    text-align: center;
+    box-shadow: 0 0 5px  #dcdcde;
+   
+}
+#playerTag {
+    position: relative;
+    top: 50px;
+    left: -70px;
+}
+#computerTag {
+    position: relative;
+    top: 30px;
+    right: -130px;
+}
+span {
+    font-size: 40px;
+   
+
+    
+}
+#results {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ourMoves {
+  position: relative;
+  left: 25%;
+    
+}
+img {
+    image-resolution: 100;
+    width: 100px;
+}
+#rock {
+    padding-top: 20px;
+    padding-right: 10px ;
+}
+
+.moves {
+    border: 1px solid #c5cfe0;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px; 
+    padding-top: 20px;
+    padding-left: 30px;
+    margin: 10px;
+    
+}
+.moves:hover {
+    transition: background-color 0.5s ease;
+    background-color: #1d3054;
+}
+.ready {
+    margin-top: 30px;
+    text-align: center;
+}
+.ready > p {
+    font-size: 16px;
+}
+.green {
+    border: 1px  solid #1df711;
+    box-shadow: 0 0 10px #1df711;
+}
+.red {
+    border: 1px  solid #e81409;
+    box-shadow: 0 0 10px #e81409;
+}
+.blue {
+    border: 1px  solid #07b7ed;
+    box-shadow: 0 0 10px #07b7ed;
+}
